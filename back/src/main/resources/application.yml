@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql:// mysql-test.sqlpub.com:3306/liujieyin?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true&autoReconnect=true
+    username: frank1
+    password: y9IFfp3x7JfWrnEU
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 3
+      max-lifetime: 300000
+      idle-timeout: 300000
+      connection-timeout: 20000
